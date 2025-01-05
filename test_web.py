@@ -3,7 +3,7 @@ from phi.model.groq import Groq
 from phi.tools.yfinance import YFinanceTools
 from phi.tools.duckduckgo import DuckDuckGo
 import os 
-os.environ["GROQ_API_KEY"]="gsk_T1nleOBtK7Bj3zsgjLhdWGF80gDdcXFPMFcppV9OR9n"
+os.environ["GROQ_API_KEY"]="your_API_KEY"
 
 
 web_search_agent=Agent(
